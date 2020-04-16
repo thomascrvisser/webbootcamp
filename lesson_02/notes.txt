@@ -1,0 +1,7 @@
+CSS is a language used to style websites. 
+Colors, fonts, and page layouts for a site 
+can all be managed using CSS. The more comfortable 
+you are with CSS, the better equipped you will be to create stylish 
+and contemporary-looking websites.
+
+We use a link element to reference a CSS file. A CSS file contains all of our style attributes
