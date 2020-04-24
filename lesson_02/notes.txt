@@ -5,3 +5,38 @@ you are with CSS, the better equipped you will be to create stylish
 and contemporary-looking websites.
 
 We use a link element to reference a CSS file. A CSS file contains all of our style attributes
+
+
+CSS files are made up of CSS rules.
+A rule consists of a selector h1 {} a propertery h1{color:}, and a value h1{color:red;}
+Font family are the font types you will be using. 
+If a browser is unable to support one, it uses the next on the list
+
+You can use CSS to select an element by its class as well.
+.hero{
+
+}
+
+or by its id 
+
+#hero{
+    
+}
+
+pixel (px): Standard unit of measurement for sizing fonts and other HTML elements.
+
+
+rem: Represents the default font size for the web browser. 
+Rems can be used to ensure that HTML elements scale in proportion to 
+each other on various web browsers and screen sizes. 
+On most web browsers, 1rem is equivalent to 16px, 2rem is equivalent to 32px (a doubling), 
+3rem is equivalent to 48px (a tripling) and so on.
+
+
+em: A relative value that changes in proportion to the font-size of the element on which em is used. 
+Because font-size is an inherited property, this usually means the em value will change in proportion 
+to the font-size of the parent element unless a font-size is explicitly set on the element 
+on which em is used. For example, if a parent element has font-size: 20px;, 
+child elements with font-size: 1em; would be equivalent to 20px. 
+Child elements with font-size: 0.5em; would be equivalent to 10px (a halving) and so on.
+

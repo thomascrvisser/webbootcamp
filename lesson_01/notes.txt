@@ -14,6 +14,20 @@ Some basics:
 They all do something different to the text that's inside of them. You can wrap elements within each other.
 In that case the outer element is referred to as the parent and the elements inside are the children
 
+<!DOCTYPE html>: Tells the web browser to expect an HTML document.
+
+
+<html>...</html>: The root of the HTML document and parent of all other HTML elements on the webpage.
+
+
+<head>...</head>: Enclose other metadata about the site, such as its title.
+
+
+<title>...</title>: Contains the site’s title, which is one way users can find your site through a search engine, like Google.
+
+<meta charset="utf-8"/>: Tells the web browser which character set to use. In this case, the character set is “utf-8”.
+
+
 
 What if we wanted to attach a link to different page?
 Anchors!
@@ -38,16 +52,6 @@ videos are also cool
 div's are the main way to keep your website organized. 
 They're really important when it comes to moving and styling your website
 
+divs and elements can be give class names(for divs) or ids(for specific items)
 
-<!DOCTYPE html>: Tells the web browser to expect an HTML document.
-
-
-<html>...</html>: The root of the HTML document and parent of all other HTML elements on the webpage.
-
-
-<head>...</head>: Enclose other metadata about the site, such as its title.
-
-
-<title>...</title>: Contains the site’s title, which is one way users can find your site through a search engine, like Google.
-
-<meta charset="utf-8"/>: Tells the web browser which character set to use. In this case, the character set is “utf-8”.
+This helps when we get into CSS
